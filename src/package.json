@@ -1,0 +1,26 @@
+{
+  "name": "bank-backend-ts",
+  "version": "1.0.0",
+  "description": "Simple banking system using TypeScript and clean architecture",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "backend",
+    "bank",
+    "oop",
+    "clean-architecture"
+  ],
+  "author": "Javier T",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.0.2"
+  }
+}
